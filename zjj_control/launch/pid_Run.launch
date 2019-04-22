@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <master auto="master"/>
+    <!--启动IMU-->
+    <!--<include file="$(find art_imu)/launch/imu.launch" />-->
+    <node pkg="zjj_control" type="Quer_change_Yaw" name="Quer_change_Yaw" output="screen" />
+    <!--<node pkg="zjj_control" type="pid_run_car" name="pid_run_car" output="screen" />-->
+</launch>
